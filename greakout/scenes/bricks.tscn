@@ -1,0 +1,1903 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://scripts/bricks.gd" type="Script" id=1]
+[ext_resource path="res://images/element_red_rectangle.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 31.9352, 14.2161 )
+
+[node name="bricks" type="Node2D"]
+
+transform/pos = Vector2( 130, 60 )
+script/script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="red_bricks" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( -68, 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick1" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 60, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick1"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick1"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick2" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 120, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick2"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick2"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick3" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 180, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick3"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick3"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick4" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 240, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick4"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick4"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick5" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 300, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick5"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick5"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick6" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 360, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick6"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick6"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick7" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 420, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick7"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick7"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick8" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 480, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick8"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick8"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick9" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 540, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick9"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick9"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick10" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 600, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick10"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick10"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick11" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 660, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick11"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick11"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick12" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 720, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick12"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick12"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick13" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 780, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick13"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick13"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick14" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 840, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick14"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick14"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick15" type="StaticBody2D" parent="red_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 900, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="red_bricks/brick15"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="red_bricks/brick15"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="green_bricks" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( -68, 32 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick1" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 60, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick1"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick1"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick2" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 120, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick2"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick2"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick3" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 180, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick3"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick3"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick4" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 240, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick4"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick4"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick5" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 300, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick5"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick5"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick6" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 360, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick6"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick6"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick7" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 420, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick7"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick7"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick8" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 480, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick8"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick8"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick9" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 540, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick9"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick9"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick10" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 600, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick10"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick10"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick11" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 660, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick11"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick11"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick12" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 720, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick12"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick12"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick13" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 780, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick13"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick13"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick14" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 840, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick14"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick14"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick15" type="StaticBody2D" parent="green_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 900, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="green_bricks/brick15"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="green_bricks/brick15"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="yellow_bricks" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( -68, 62 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick1" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 60, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick1"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick1"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick2" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 120, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick2"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick2"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick3" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 180, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick3"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick3"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick4" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 240, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick4"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick4"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick5" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 300, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick5"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick5"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick6" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 360, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick6"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick6"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick7" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 420, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick7"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick7"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick8" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 480, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick8"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick8"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick9" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 540, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick9"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick9"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick10" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 600, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick10"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick10"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick11" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 660, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick11"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick11"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick12" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 720, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick12"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick12"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick13" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 780, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick13"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick13"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick14" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 840, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick14"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick14"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick15" type="StaticBody2D" parent="yellow_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 900, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="yellow_bricks/brick15"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="yellow_bricks/brick15"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="blue_bricks" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( -68, 92 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick1" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 60, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick1"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick1"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick2" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 120, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick2"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick2"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick3" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 180, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick3"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick3"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick4" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 240, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick4"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick4"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick5" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 300, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick5"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick5"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick6" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 360, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick6"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick6"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick7" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 420, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick7"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick7"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick8" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 480, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick8"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick8"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick9" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 540, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick9"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick9"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick10" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 600, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick10"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick10"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick11" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 660, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick11"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick11"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick12" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 720, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick12"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick12"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick13" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 780, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick13"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick13"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick14" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 840, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick14"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick14"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="brick15" type="StaticBody2D" parent="blue_bricks"]
+
+editor/display_folded = true
+transform/pos = Vector2( 900, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1.13139, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="brick_sprite" type="Sprite" parent="blue_bricks/brick15"]
+
+texture = ExtResource( 2 )
+
+[node name="brick_collision_shape" type="CollisionShape2D" parent="blue_bricks/brick15"]
+
+transform/scale = Vector2( 1, 1.13139 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+
